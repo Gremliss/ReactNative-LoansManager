@@ -1,33 +1,37 @@
 {
   "expo": {
-    "name": "LoansApp",
+    "name": "Loans Manager",
     "slug": "LoansApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LoansAppLogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/LoansAppLogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2f3237"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/LoansAppLogoColor.png",
+        "backgroundColor": "#2f3237"
+      },
+      "package": "com.gremliss.LoansApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/LoansAppLogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fde8bbdc-3a2d-4f34-b142-75705a9bd320"
+      }
     }
   }
 }
